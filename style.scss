@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.btn-login {
+    background-color: blueviolet;
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(97, 26, 163);
+        color: #fff;
+    }
+}
+
+.navbaar-light {
+    .navbar-nav {
+        .nav-link {
+            color: blueviolet;
+
+            &.active {
+            font-weight: bold;
+            color: blueviolet !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+     
+}
+
+header {
+    padding: 180px 0 165px;
+    background-image: url(Assets/ginevra-austine-UDHOO55kT_g-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+
+}
+
+.section-popular-content {
+    .section-popular-suku {
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            color: #ffffff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+        .travel-country {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .travel-location {
+            font-size: 26px;
+            color: #ffffff;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: blueviolet;
+                color: #ffffff;
+
+                &:hover {
+                    background-color:rgb(97, 26, 163);
+                    color: #ffffff;
+                }
+            }
+        }
+    }        
+}
+
+.btn-order-now {
+    background-color: #129a1b;
+    color: #ffffff;
+    border-radius: 0;
+
+    &:hover {
+        background-color: #47bb4f;
+        color: #ffffff;
+    }
+}
+
+

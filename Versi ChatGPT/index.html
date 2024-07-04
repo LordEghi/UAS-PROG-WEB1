@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Indonesian Tourism</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#culture">Kebudayaan Indonesia</a></li>
+                <li><a href="#tourist-attractions">Tempat Wisata</a></li>
+                <li><a href="#hotels">Hotel</a></li>
+                <li><a href="#booking">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Indonesian Tourism</h2>
+        <p>Discover the beauty and richness of Indonesia's culture, tourist attractions, and hospitality.</p>
+    </section>
+
+    <section id="culture">
+        <h2>Kebudayaan Indonesia</h2>
+        <p>Indonesia is known for its rich cultural heritage, which includes traditional dances, ceremonies, and unique traditions.</p>
+        <article>
+            <h3>Tarian Tradisional</h3>
+            <p>Descriptions of traditional dances such as Tari Kecak, Tari Saman, and others.</p>
+        </article>
+        <article>
+            <h3>Upacara Adat</h3>
+            <p>Descriptions of traditional ceremonies like Ngaben, Sekaten, etc.</p>
+        </article>
+        <article>
+            <h3>Tradisi Unik</h3>
+            <p>Descriptions of unique traditions like Batik making, Wayang performances, etc.</p>
+        </article>
+    </section>
+
+    <section id="tourist-attractions">
+        <h2>Tempat Wisata Terbaik di Indonesia</h2>
+        <article>
+            <h3>Bali</h3>
+            <p>Information about Bali's top tourist spots.</p>
+        </article>
+        <article>
+            <h3>Yogyakarta</h3>
+            <p>Information about Yogyakarta's top tourist spots.</p>
+        </article>
+        <article>
+            <h3>Raja Ampat</h3>
+            <p>Information about Raja Ampat's top tourist spots.</p>
+        </article>
+    </section>
+
+    <section id="hotels">
+        <h2>Daftar Hotel Favorit</h2>
+        <article>
+            <h3>Hotel Indonesia Kempinski</h3>
+            <p>Fasilitas: Swimming Pool, Spa, Gym, etc. <br> Harga: IDR 2,000,000 per malam <br> Alamat: Jl. M.H. Thamrin No.1, Jakarta</p>
+        </article>
+        <article>
+            <h3>The Mulia, Bali</h3>
+            <p>Fasilitas: Private Beach, Spa, Fine Dining, etc. <br> Harga: IDR 3,500,000 per malam <br> Alamat: Jl. Raya Nusa Dua Selatan, Bali</p>
+        </article>
+    </section>
+
+    <section id="booking">
+        <h2>Booking</h2>
+        <form id="booking-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="hotel">Hotel:</label>
+            <select id="hotel" name="hotel" required>
+                <option value="kempinski">Hotel Indonesia Kempinski</option>
+                <option value="mulia">The Mulia, Bali</option>
+            </select><br>
+
+            <label for="checkin">Tanggal Check-in:</label>
+            <input type="date" id="checkin" name="checkin" required><br>
+
+            <label for="checkout">Tanggal Check-out:</label>
+            <input type="date" id="checkout" name="checkout" required><br>
+
+            <button type="button" onclick="processBooking()">Book Now</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

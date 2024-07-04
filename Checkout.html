@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eghi Juliansyah</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    Details
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Checkout
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-details">
+                            <h1>Who is Travel?</h1>
+                            <p>
+                                Just few more step to get the best experience in Indonesia
+                            </p>
+                            <div class="attendee">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                        <td>Picture</td>
+                                        <td>name</td>
+                                        <td>Nationality</td>
+                                        <td>Visa</td>
+                                        <td>Passport</td>
+                                        <td></td>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="Assets/member-3.png" height="60">
+                                            </td>
+                                            <td class="align-middle">
+                                                Rafly Batistuta
+                                            </td>
+                                            <td class="align-middle">
+                                                CN
+                                            </td>
+                                            <td class="align-middle">
+                                                N/A
+                                            </td>
+                                            <td class="align-middle">
+                                                Active
+                                            </td>
+                                            <td class="align-middle">
+                                                <a href="#">
+                                                    <img src="frontend/images/ic_remove.png" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="Assets/member-2.png" height="60">
+                                            </td>
+                                            <td class="align-middle">
+                                                Eghi Juliansyah
+                                            </td>
+                                            <td class="align-middle">
+                                                IND
+                                            </td>
+                                            <td class="align-middle">
+                                                30 Days
+                                            </td>
+                                            <td class="align-middle">
+                                                Active
+                                            </td>
+                                            <td class="align-middle">
+                                                <a href="#">
+                                                    <img src="frontend/images/ic_remove.png" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="member mt-3">
+                                <h2>Add Member</h2>
+                                <form class="form-inline">
+                                    <label for="inputUsername" class="sr-only">Name</label>
+                                    <input type="text" name="inputUsername" class="form-control mb-2 mr-sm-2" id="inputUsername" placeholder="Username">
+                                    <label for="inputVisa" class="sr-only">Preverence</label>
+                                    <select name="inputVisa" id="inputVisa" class="custom-select mb-2 mb-sm-2">
+                                        <option value="VISA" selected>VISA</option>
+                                        <option value="30 Days">30 Days</option>
+                                        <option value="N/A">N/A</option>
+                                    </select>
+
+
+                                    <label for="doePassport" class="sr-only">DOE Passport</label>
+                                    <div class="input-group mb-2 mr-sm-2 px-2">
+                                        <input type="text" class="form-control datepicker" id="doePassport" placeholder="DOE Passport">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                                        Add Now
+                                    </button>
+                                </form>
+                                <h2 class="mt-2 mb-0">Note</h2>
+                                <p class="disclaimer mb-0">
+                                    You can only invite people who already have an account at WE.
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card card-details card-right">
+                                <h3>Members who have ordered</h3>
+                                <div class="members my-2">
+                                    <img src="Assets/member-2.png"class="member-image">
+                                    <img src="Assets/member-2.png"class="member-image">
+                                    <img src="Assets/member-3.png"class="member-image">
+                                    <img src="Assets/member-3.png"class="member-image">
+                                    <img src="Assets/member-2.png"class="member-image">
+                                </div>
+                                <hr>
+                                <h2>Trip Informations</h2>
+                                <table class="trip-informations">
+                                    <tr>
+                                        <th width="50%">Date of depature</th>
+                                        <td width="50%" class="text-right">
+                                            26 Des, 2024
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th width="50%">Estimate up to</th>
+                                        <td width="50%" class="text-right">
+                                            28 - 35 days
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th width="50%">Price</th>
+                                        <td width="50%" class="text-right">
+                                            $500
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="join-container">
+                                <a href="PaymentSuccess.html" class="btn btn-block btn-order-now mt-3 py-2">
+                                    I Have Made A Payment
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   </main>
+    
+   <script src="Bootstrap/jquery-3.7.1.min.js"></script>
+    <script src="Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="Bootstrap/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-galerry').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+       </script>
+</body>
+</html>
